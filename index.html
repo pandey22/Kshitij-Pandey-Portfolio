@@ -12,57 +12,286 @@
     <div class ="logo"> Kshitij Pandey</div>
     <div>
         <ul class="nav-links">
-            <li><a href="#about">About</a>
-            <li><a href="#projects">Projects</a>
-            <li><a href="#contact">Contact</a>
-            <li><a href="#Experience">Experience</a>
-            
-        </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     </nav>
     <nav id="hamburger-nav">
         <div class = "logo"> Kshitij Pandey</div>
-        <div class = "ham-menu"></div>
+        <div class = "ham-menu">
         <div class = "ham-icon" onclick="toggleMenu()">
-            <span>
-            </span>
-            <span>
-            </span>
-            <span>
-            </span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
         <div class ="menu-links">
             <li><a href=#about onclick="toggleMenu()">About</a></li>
+            <li><a href=#skills onclick="toggleMenu()">Skills</a></li>
             <li><a href=#projects onclick="toggleMenu()">Projects</a></li>
             <li><a href=#contact onclick="toggleMenu()">Contact</a></li>
-            <li><a href=#Experience onclick="toggleMenu()">Experience</a></li>
-            
         </div>
+    </div>
     </nav>
     <section id="profile">
         <div class="section-pic-container">
-            <img src="./assets/profile-pic.PNG" alt="Kshitij profile pic">
+            <img src="./assets/profile-pic.PNG" 
+            alt="Kshitij profile pic">
         </div>
         <div class="section-text">
             <p class="section-text-p1">Hello, I'm </p>
             <h1 class="title">Kshitij Pandey</h1>
             <p class="section-text-p2">Fullstack Developer </p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" onclick="window.open
+                ('./assets/Kshitij_Pandey_Resume.pdf')">Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact
+                </button>
+            </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My Linkedin Profile"
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/kp250400/'"/>
+                    <img src="./assets/github.png" alt="My Github Profile"
+                    class="icon" onclick="location.href='https://github.com/pandey22'"/>
+            </div>
         </div>
-        <div id="socials-container">
-            <img src="./assets/linkedin.png" alt="My Linkedin Profile"
-            class="icon" onclick="location.href='https://www.linkedin.com/in/kp250400/'">
-            <img src="./assets/github.png" alt="My Github Profile"
-            class="icon" onclick="location.href='https://github.com/pandey22'">
-
-        </div>
-        <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open
-            ('./assets/Kshitij_Pandey_Resume.pdf')">Download CV</button>
-            <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact</button>
-        </div>
-       
     </section>
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+            <img src="./assets/profile-pic.PNG"
+            alt="about pic"
+            class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img src="./assets/Edu.png"
+                    alt="Education Icon" class="icon"/>
+                    <h3>M.C.A</h3>
+                    <p><b>2022-2024</b></br>Central University of Himachal Pradesh</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/Edu.png" 
+                    alt="Education Icon" class="icon"/>
+                    <h3>B.C.A</h3>
+                    <p><b>2019-2022</b></br>Birla Institute of Technology</p>
+                </div>
+            </div>
+                <div class="text-container">
+                    <p style="font-size: large;">Hello, I'm Kshitij Pandey, currently pursuing my MCA 
+                    at Central University of Himachal Pradesh. I'm deeply 
+                    passionate about full-stack development, honing my skills in <b>C++, 
+                    Java, HTML, CSS, React, NodeJS, Docker, GitHub, ExpressJS, socket.io, 
+                    and Android development.</b> With an insatiable curiosity and dedication to excellence, 
+                    I'm committed to crafting innovative solutions that leave a lasting impact in the digital world.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <img src ="assets/arrow.png" alt="arrow icon"
+        class="icon arrow" onclick="location.href='./#skills'"/>
+    </section>
+    <section id="skills">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                 <img src="./assets/html.png" 
+                                    alt="html" 
+                                    class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/css.png" alt="css" 
+                        class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/js.png" alt="Javascript" 
+                        class="icon"/>
+                        <div>
+                            <h3>Javascript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/react.png" alt="React" 
+                        class="icon"/>
+                        <div>
+                            <h3>React</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/tailwind.png" alt="Tailwind" 
+                        class="icon"/>
+                        <div>
+                            <h3>Tailwind</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/bootstrap.png" alt="Bootstrap" 
+                        class="icon"/>
+                        <div>
+                            <h3>Bootstrap</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="./assets/node.png" alt="NodeJS" 
+                        class="icon"/>
+                        <div>
+                            <h3>NodeJS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/mongo.png" alt="MongoDB" 
+                        class="icon"/>
+                        <div>
+                            <h3>MongoDB</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/firebase.png" alt="Firebase" 
+                        class="icon"/>
+                        <div>
+                            <h3>Firebase</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/express.png" alt="ExpressJS" 
+                        class="icon"/>
+                        <div>
+                            <h3>ExpressJS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/sql.png" alt="SQL" 
+                        class="icon"/>
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/docker.png" alt="Web Sockets" 
+                        class="icon"/>
+                        <div>
+                            <h3>Docker</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>
+        <img src ="assets/arrow.png" alt="arrow icon"
+        class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+            <div class="skills-details-container">
+                <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project1.png" 
+                        alt="project1" class="project-img"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">CUHP APP</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/pandey22/CUHP-APP.git'">GitHub
+                        </button>
+                        <button class="btn btn-color-2"  onclick="location.href='https://github.com/pandey22/CUHP-APP.git'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project2.png" 
+                        alt="project1" class="project-img"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Chatfinity</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/pandey22/Chatfinity.git'">GitHub
+                        </button>
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/pandey22/Chatfinity.git'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" 
+                        alt="project1" class="project-img"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">EDA Python Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn" 
+                        onclick="location.href='https://github.com/pandey22/Data-Analysis-Project-on-Diwali-Sales.git'">GitHub
+                        </button>
+                        <button class="btn btn-color-2" 
+                        onclick="location.href='https://github.com/pandey22/Data-Analysis-Project-on-Diwali-Sales.git'">
+                        Live Demo</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+            <img src ="assets/arrow.png" alt="arrow icon"
+        class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                alt="email icon" class="icon contact-icon email icon">
+                <p><a href="mailto:kshitijpandey25@gmail.com">kshitijpandey25@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" 
+                alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/kp250400/">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; Kshitij Pandey. All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
